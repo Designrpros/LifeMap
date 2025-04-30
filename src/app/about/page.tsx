@@ -1,7 +1,6 @@
 "use client";
 
 import styled from "styled-components";
-import Link from "next/link";
 
 // Colors
 const colors = {
@@ -158,41 +157,6 @@ const TeamRole = styled.p`
   font-size: 1rem;
   color: ${colors.textSecondary};
   line-height: 1.6;
-`;
-
-const CTASection = styled.section`
-  margin-top: 3rem;
-  text-align: center;
-`;
-
-const CTAButton = styled(Link)`
-  padding: 0.6rem 1.5rem;
-  font-size: 1rem;
-  font-weight: 500;
-  text-decoration: none;
-  border-radius: 4px;
-  background: ${colors.background};
-  color: ${colors.text};
-  border: 1px solid ${colors.text};
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background 0.2s ease, transform 0.1s ease;
-  cursor: pointer;
-
-  &:hover {
-    background: ${colors.hover};
-    transform: translateY(-1px);
-  }
-
-  @media (max-width: 768px) {
-    padding: 0.5rem 1.2rem;
-    font-size: 0.9rem;
-  }
-
-  @media (max-width: 480px) {
-    padding: 0.4rem 1rem;
-    width: 100%;
-    max-width: 200px;
-  }
 `;
 
 const Footer = styled.footer`

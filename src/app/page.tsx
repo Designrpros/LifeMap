@@ -226,16 +226,6 @@ const TimelineItem = styled.div<{ $isEven: boolean }>`
   }
 `;
 
-const TimelineIcon = styled.img`
-  width: 24px;
-  height: 24px;
-  margin: 0.5rem;
-
-  @media (max-width: 768px) {
-    margin-left: 2rem;
-  }
-`;
-
 const TimelineContent = styled(Link)`
   display: block;
   background: ${colors.background};
